@@ -1,0 +1,305 @@
+﻿Build started 7/7/2014 4:08:59 PM.
+     1>Project "C:\Users\Olechka\Desktop\Calibration_yang_1\Calibration2013_11_06 - 7-3-14\Calibration.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /nologo /W3 /WX- /O2 /D WIN32 /D NDEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp".\Release\Calibration.pch" /Fo".\Release\\" /Fd".\Release\vc120.pdb" /FR"x64\Release\\" /Gd /TP /errorReport:prompt StdAfx.cpp
+         StdAfx.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\afx.h(38): warning C4996: 'MBCS_Support_Deprecated_In_MFC': MBCS support in MFC is deprecated and may be removed in a future version of MFC.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\afx.h(33) : see declaration of 'MBCS_Support_Deprecated_In_MFC'
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /nologo /W3 /WX- /O2 /D WIN32 /D NDEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp".\Release\Calibration.pch" /Fo".\Release\\" /Fd".\Release\vc120.pdb" /FR"x64\Release\\" /Gd /TP /errorReport:prompt AnalysisDlg.cpp Calibration.cpp CalibrationDlg.cpp CollectDlg.cpp ErrorDlg.cpp InstallDlg.cpp LineArrayDlg.cpp MessageBox2Dlg.cpp MessageBoxDlg.cpp msword.cpp SetDlg.cpp SetZeroDlg.cpp ShowDlg.cpp
+         AnalysisDlg.cpp
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(388): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(560): warning C4267: 'argument' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(567): warning C4267: 'argument' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(574): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(346) : see declaration of '_vsnprintf'
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(584): warning C4996: '_vsnwprintf': This function or variable may be unsafe. Consider using _vsnwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(477) : see declaration of '_vsnwprintf'
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(594): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'vsprintf'
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(604): warning C4996: 'vswprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\swprintf.inl(97) : see declaration of 'vswprintf'
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(1174): warning C4267: 'argument' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(1179): warning C4267: 'argument' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(1212): warning C4267: 'argument' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(1218): warning C4267: 'argument' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>AnalysisDlg.cpp(63): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>AnalysisDlg.cpp(81): error C2664: 'BOOL EnumChildWindows(HWND,WNDENUMPROC,LPARAM)' : cannot convert argument 2 from 'int (__cdecl *)(HWND__ *,long)' to 'WNDENUMPROC'
+                 None of the functions with this name in scope match the target type
+     1>AnalysisDlg.cpp(96): error C2664: 'BOOL EnumChildWindows(HWND,WNDENUMPROC,LPARAM)' : cannot convert argument 2 from 'int (__cdecl *)(HWND__ *,long)' to 'WNDENUMPROC'
+                 None of the functions with this name in scope match the target type
+         Calibration.cpp
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(388): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(560): warning C4267: 'argument' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(567): warning C4267: 'argument' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(574): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(346) : see declaration of '_vsnprintf'
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(584): warning C4996: '_vsnwprintf': This function or variable may be unsafe. Consider using _vsnwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(477) : see declaration of '_vsnwprintf'
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(594): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'vsprintf'
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(604): warning C4996: 'vswprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\swprintf.inl(97) : see declaration of 'vswprintf'
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(1174): warning C4267: 'argument' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(1179): warning C4267: 'argument' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(1212): warning C4267: 'argument' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(1218): warning C4267: 'argument' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>Calibration.cpp(59): warning C4244: 'initializing' : conversion from 'INT_PTR' to 'int', possible loss of data
+         CalibrationDlg.cpp
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(388): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(560): warning C4267: 'argument' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(567): warning C4267: 'argument' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(574): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(346) : see declaration of '_vsnprintf'
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(584): warning C4996: '_vsnwprintf': This function or variable may be unsafe. Consider using _vsnwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(477) : see declaration of '_vsnwprintf'
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(594): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'vsprintf'
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(604): warning C4996: 'vswprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\swprintf.inl(97) : see declaration of 'vswprintf'
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(1174): warning C4267: 'argument' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(1179): warning C4267: 'argument' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(1212): warning C4267: 'argument' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(1218): warning C4267: 'argument' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>CalibrationDlg.cpp(138): error C2440: 'static_cast' : cannot convert from 'void (__cdecl CCalibrationDlg::* )(UINT)' to 'void (__cdecl CWnd::* )(UINT_PTR)'
+                 Cast from base to derived requires dynamic_cast or static_cast
+     1>CalibrationDlg.cpp(138): fatal error C1903: unable to recover from previous error(s); stopping compilation
+         CollectDlg.cpp
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(388): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(560): warning C4267: 'argument' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(567): warning C4267: 'argument' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(574): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(346) : see declaration of '_vsnprintf'
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(584): warning C4996: '_vsnwprintf': This function or variable may be unsafe. Consider using _vsnwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(477) : see declaration of '_vsnwprintf'
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(594): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'vsprintf'
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(604): warning C4996: 'vswprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\swprintf.inl(97) : see declaration of 'vswprintf'
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(1174): warning C4267: 'argument' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(1179): warning C4267: 'argument' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(1212): warning C4267: 'argument' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(1218): warning C4267: 'argument' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>CollectDlg.cpp(41): error C2440: 'static_cast' : cannot convert from 'void (__cdecl CCollectDlg::* )(UINT)' to 'void (__cdecl CWnd::* )(UINT_PTR)'
+                 Cast from base to derived requires dynamic_cast or static_cast
+     1>CollectDlg.cpp(41): fatal error C1903: unable to recover from previous error(s); stopping compilation
+         ErrorDlg.cpp
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(388): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(560): warning C4267: 'argument' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(567): warning C4267: 'argument' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(574): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(346) : see declaration of '_vsnprintf'
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(584): warning C4996: '_vsnwprintf': This function or variable may be unsafe. Consider using _vsnwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(477) : see declaration of '_vsnwprintf'
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(594): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'vsprintf'
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(604): warning C4996: 'vswprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\swprintf.inl(97) : see declaration of 'vswprintf'
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(1174): warning C4267: 'argument' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(1179): warning C4267: 'argument' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(1212): warning C4267: 'argument' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(1218): warning C4267: 'argument' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>ErrorDlg.cpp(69): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>ErrorDlg.cpp(89): error C2664: 'BOOL EnumChildWindows(HWND,WNDENUMPROC,LPARAM)' : cannot convert argument 2 from 'int (__cdecl *)(HWND__ *,long)' to 'WNDENUMPROC'
+                 None of the functions with this name in scope match the target type
+     1>ErrorDlg.cpp(106): error C2664: 'BOOL EnumChildWindows(HWND,WNDENUMPROC,LPARAM)' : cannot convert argument 2 from 'int (__cdecl *)(HWND__ *,long)' to 'WNDENUMPROC'
+                 None of the functions with this name in scope match the target type
+         InstallDlg.cpp
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(388): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(560): warning C4267: 'argument' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(567): warning C4267: 'argument' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(574): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(346) : see declaration of '_vsnprintf'
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(584): warning C4996: '_vsnwprintf': This function or variable may be unsafe. Consider using _vsnwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(477) : see declaration of '_vsnwprintf'
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(594): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'vsprintf'
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(604): warning C4996: 'vswprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\swprintf.inl(97) : see declaration of 'vswprintf'
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(1174): warning C4267: 'argument' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(1179): warning C4267: 'argument' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(1212): warning C4267: 'argument' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(1218): warning C4267: 'argument' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>InstallDlg.cpp(62): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>InstallDlg.cpp(81): error C2664: 'BOOL EnumChildWindows(HWND,WNDENUMPROC,LPARAM)' : cannot convert argument 2 from 'int (__cdecl *)(HWND__ *,long)' to 'WNDENUMPROC'
+                 None of the functions with this name in scope match the target type
+     1>InstallDlg.cpp(97): error C2664: 'BOOL EnumChildWindows(HWND,WNDENUMPROC,LPARAM)' : cannot convert argument 2 from 'int (__cdecl *)(HWND__ *,long)' to 'WNDENUMPROC'
+                 None of the functions with this name in scope match the target type
+         LineArrayDlg.cpp
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(388): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(560): warning C4267: 'argument' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(567): warning C4267: 'argument' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(574): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(346) : see declaration of '_vsnprintf'
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(584): warning C4996: '_vsnwprintf': This function or variable may be unsafe. Consider using _vsnwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(477) : see declaration of '_vsnwprintf'
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(594): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'vsprintf'
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(604): warning C4996: 'vswprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\swprintf.inl(97) : see declaration of 'vswprintf'
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(1174): warning C4267: 'argument' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(1179): warning C4267: 'argument' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(1212): warning C4267: 'argument' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(1218): warning C4267: 'argument' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>LineArrayDlg.cpp(222): error C2664: 'BOOL EnumChildWindows(HWND,WNDENUMPROC,LPARAM)' : cannot convert argument 2 from 'int (__cdecl *)(HWND__ *,long)' to 'WNDENUMPROC'
+                 None of the functions with this name in scope match the target type
+     1>LineArrayDlg.cpp(243): error C2664: 'BOOL EnumChildWindows(HWND,WNDENUMPROC,LPARAM)' : cannot convert argument 2 from 'int (__cdecl *)(HWND__ *,long)' to 'WNDENUMPROC'
+                 None of the functions with this name in scope match the target type
+         MessageBox2Dlg.cpp
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(388): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(560): warning C4267: 'argument' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(567): warning C4267: 'argument' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(574): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(346) : see declaration of '_vsnprintf'
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(584): warning C4996: '_vsnwprintf': This function or variable may be unsafe. Consider using _vsnwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(477) : see declaration of '_vsnwprintf'
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(594): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'vsprintf'
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(604): warning C4996: 'vswprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\swprintf.inl(97) : see declaration of 'vswprintf'
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(1174): warning C4267: 'argument' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(1179): warning C4267: 'argument' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(1212): warning C4267: 'argument' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(1218): warning C4267: 'argument' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>MessageBox2Dlg.cpp(71): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>MessageBox2Dlg.cpp(109): error C2664: 'BOOL EnumChildWindows(HWND,WNDENUMPROC,LPARAM)' : cannot convert argument 2 from 'int (__cdecl *)(HWND__ *,long)' to 'WNDENUMPROC'
+                 None of the functions with this name in scope match the target type
+         MessageBoxDlg.cpp
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(388): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(560): warning C4267: 'argument' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(567): warning C4267: 'argument' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(574): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(346) : see declaration of '_vsnprintf'
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(584): warning C4996: '_vsnwprintf': This function or variable may be unsafe. Consider using _vsnwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(477) : see declaration of '_vsnwprintf'
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(594): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'vsprintf'
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(604): warning C4996: 'vswprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\swprintf.inl(97) : see declaration of 'vswprintf'
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(1174): warning C4267: 'argument' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(1179): warning C4267: 'argument' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(1212): warning C4267: 'argument' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(1218): warning C4267: 'argument' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>MessageBoxDlg.cpp(72): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>MessageBoxDlg.cpp(90): error C2664: 'BOOL EnumChildWindows(HWND,WNDENUMPROC,LPARAM)' : cannot convert argument 2 from 'int (__cdecl *)(HWND__ *,long)' to 'WNDENUMPROC'
+                 None of the functions with this name in scope match the target type
+         msword.cpp
+         SetDlg.cpp
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(388): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(560): warning C4267: 'argument' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(567): warning C4267: 'argument' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(574): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(346) : see declaration of '_vsnprintf'
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(584): warning C4996: '_vsnwprintf': This function or variable may be unsafe. Consider using _vsnwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(477) : see declaration of '_vsnwprintf'
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(594): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'vsprintf'
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(604): warning C4996: 'vswprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\swprintf.inl(97) : see declaration of 'vswprintf'
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(1174): warning C4267: 'argument' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(1179): warning C4267: 'argument' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(1212): warning C4267: 'argument' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(1218): warning C4267: 'argument' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>SetDlg.cpp(138): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>SetDlg.cpp(390): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>SetDlg.cpp(402): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>SetDlg.cpp(783): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>SetDlg.cpp(788): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>SetDlg.cpp(793): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>SetDlg.cpp(822): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>SetDlg.cpp(838): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>SetDlg.cpp(1387): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>SetDlg.cpp(1417): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>SetDlg.cpp(1588): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>SetDlg.cpp(1589): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>SetDlg.cpp(3452): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>SetDlg.cpp(4852): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>SetDlg.cpp(4950): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>SetDlg.cpp(5701): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>SetDlg.cpp(5702): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>SetDlg.cpp(5718): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>SetDlg.cpp(5719): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>SetDlg.cpp(6233): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>SetDlg.cpp(6407): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+         SetZeroDlg.cpp
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(388): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(560): warning C4267: 'argument' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(567): warning C4267: 'argument' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(574): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(346) : see declaration of '_vsnprintf'
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(584): warning C4996: '_vsnwprintf': This function or variable may be unsafe. Consider using _vsnwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(477) : see declaration of '_vsnwprintf'
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(594): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'vsprintf'
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(604): warning C4996: 'vswprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\swprintf.inl(97) : see declaration of 'vswprintf'
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(1174): warning C4267: 'argument' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(1179): warning C4267: 'argument' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(1212): warning C4267: 'argument' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(1218): warning C4267: 'argument' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>SetZeroDlg.cpp(53): error C2440: 'static_cast' : cannot convert from 'void (__cdecl CSetZeroDlg::* )(UINT)' to 'void (__cdecl CWnd::* )(UINT_PTR)'
+                 Cast from base to derived requires dynamic_cast or static_cast
+     1>SetZeroDlg.cpp(53): fatal error C1903: unable to recover from previous error(s); stopping compilation
+         ShowDlg.cpp
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(388): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(560): warning C4267: 'argument' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(567): warning C4267: 'argument' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(574): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(346) : see declaration of '_vsnprintf'
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(584): warning C4996: '_vsnwprintf': This function or variable may be unsafe. Consider using _vsnwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(477) : see declaration of '_vsnwprintf'
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(594): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'vsprintf'
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(604): warning C4996: 'vswprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\swprintf.inl(97) : see declaration of 'vswprintf'
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(1174): warning C4267: 'argument' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(1179): warning C4267: 'argument' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(1212): warning C4267: 'argument' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>c:\users\olechka\desktop\calibration_yang_1\calibration2013_11_06 - 7-3-14\CnComm.h(1218): warning C4267: 'argument' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>ShowDlg.cpp(41): error C2440: 'static_cast' : cannot convert from 'void (__cdecl CShowDlg::* )(UINT)' to 'void (__cdecl CWnd::* )(UINT_PTR)'
+                 Cast from base to derived requires dynamic_cast or static_cast
+     1>ShowDlg.cpp(41): fatal error C1903: unable to recover from previous error(s); stopping compilation
+         Generating Code...
+     1>Done Building Project "C:\Users\Olechka\Desktop\Calibration_yang_1\Calibration2013_11_06 - 7-3-14\Calibration.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:33.52

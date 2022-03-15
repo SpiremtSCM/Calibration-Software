@@ -1,0 +1,12 @@
+0	IDN:	1	flow:	-nan(ind)	refer flow:	6.17
+1	IDN:	1	flow:	-nan(ind)	refer flow:	6.17
+2	IDN:	1	flow:	-nan(ind)	refer flow:	6.17
+3	IDN:	1	flow:	0	refer flow:	6.17
+4	IDN:	1	flow:	-nan(ind)	refer flow:	6.17
+5	IDN:	1	flow:	-nan(ind)	refer flow:	6.17
+6	IDN:	1	flow:	-nan(ind)	refer flow:	6.17
+7	IDN:	1	flow:	0	refer flow:	6.17
+8	IDN:	1	flow:	-nan(ind)	refer flow:	6.13
+9	IDN:	1	flow:	-nan(ind)	refer flow:	6.17
+10	IDN:	1	flow:	-nan(ind)	refer flow:	6.17
+11	IDN:	1	flow:	0	refer flow:	6.17

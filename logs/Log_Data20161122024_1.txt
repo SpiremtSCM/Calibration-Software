@@ -1,0 +1,3 @@
+0	IDN:	1	flow:	0	refer flow:	-0.06
+1	IDN:	1	flow:	0	refer flow:	-0.06
+2	IDN:	1	flow:	0	refer flow:	0

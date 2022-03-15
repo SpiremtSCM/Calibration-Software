@@ -1,0 +1,976 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (Simplified, PRC) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\Calibration.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\Calibration.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_CALIBRATION_DIALOG DIALOGEX 0, 0, 320, 198
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Calibration"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "打开串口",IDC_OPEN_COMM,77,39,61,16
+    PUSHBUTTON      "搜索表",IDC_SEARCH_METER,77,122,36,16
+    COMBOBOX        IDC_COMBO_COMM,142,41,47,102,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "自动设置波特率",IDC_BAUD_AUTO,77,67,112,16
+    EDITTEXT        IDC_METER_NUM,190,123,44,16,ES_AUTOHSCROLL
+    EDITTEXT        IDC_METER_RANGE,119,123,26,16,ES_MULTILINE | ES_AUTOVSCROLL
+    LTEXT           "表的数量",IDC_STATIC_METERNO,151,127,33,11
+    LTEXT           "搜索中。。。0%",IDC_LOADING,237,127,79,13
+    LTEXT           "Language",IDC_STATIC_LANGUAGE,223,169,38,13
+    COMBOBOX        IDC_LANGUAGE,261,167,46,102,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "请等待。。。",IDC_WAIT234,196,70,80,12
+    PUSHBUTTON      "检查标准表是否连接",IDC_CHECK,77,95,112,16
+END
+
+IDD_SET DIALOGEX 0, 0, 389, 495
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "设置"
+FONT 9, "宋体", 0, 0, 0x0
+BEGIN
+    GROUPBOX        "公用设置",IDC_STATIC_COMSET,7,7,375,285
+    GROUPBOX        "独立设置",IDC_STATIC_INDSET,7,328,375,160
+    PUSHBUTTON      "管道外直径",IDC_M11,17,35,73,15
+    EDITTEXT        IDC_EDIT_M11,101,35,28,15,ES_AUTOHSCROLL
+    PUSHBUTTON      "管道管壁厚度",IDC_M12,17,54,73,15
+    EDITTEXT        IDC_EDIT_M12,101,54,28,15,ES_AUTOHSCROLL
+    RTEXT           "选择表",IDC_STATIC_CHOSE,67,308,66,9
+    COMBOBOX        IDC_COMBO_METER,139,306,97,52,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "管道内直径",IDC_M13,17,74,73,15
+    EDITTEXT        IDC_EDIT_M13,101,75,28,15,ES_AUTOHSCROLL | WS_DISABLED
+    PUSHBUTTON      "管道材质类型",IDC_M14,17,96,73,15
+    COMBOBOX        IDC_COMBO_M14,99,97,73,67,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "衬里材质类型",IDC_M16,16,116,73,15
+    COMBOBOX        IDC_COMBO_M16,99,118,73,67,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "衬里厚度",IDC_M18,16,139,73,15
+    EDITTEXT        IDC_EDIT_M18,99,139,28,15,ES_AUTOHSCROLL
+    PUSHBUTTON      "流体类型",IDC_M20,15,161,73,15
+    COMBOBOX        IDC_COMBO_M20,97,163,73,67,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "公英制测量单位",IDC_M30,15,182,73,15
+    PUSHBUTTON      "瞬时流量单位",IDC_M31,15,205,73,15
+    COMBOBOX        IDC_COMBO_M31_1,14,227,89,67,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "/",IDC_STATIC,107,229,8,11,NOT WS_VISIBLE | WS_DISABLED
+    COMBOBOX        IDC_COMBO_M31_2,114,227,59,67,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "累积流量单位",IDC_M32,15,247,73,15
+    COMBOBOX        IDC_COMBO_M32,91,248,89,67,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "累积倍乘因子",IDC_M33,181,35,79,15
+    COMBOBOX        IDC_COMBO_M33,269,35,89,67,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "公制",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON | WS_DISABLED | WS_GROUP,98,179,35,19
+    CONTROL         "英制",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,136,179,35,19
+    PUSHBUTTON      "净累积器开关",IDC_M34,181,59,79,15
+    CONTROL         "开(ON)",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON | WS_GROUP,272,57,38,18
+    CONTROL         "关(OFF)",IDC_RADIO4,"Button",BS_AUTORADIOBUTTON,315,56,39,19
+    PUSHBUTTON      "正累积器开关",IDC_M35,182,84,79,15
+    CONTROL         "开(ON)",IDC_RADIO5,"Button",BS_AUTORADIOBUTTON | WS_GROUP,273,82,38,18
+    CONTROL         "关(OFF)",IDC_RADIO6,"Button",BS_AUTORADIOBUTTON,314,81,39,19
+    PUSHBUTTON      "负累积器开关",IDC_M36,182,109,79,15
+    CONTROL         "开(ON)",IDC_RADIO7,"Button",BS_AUTORADIOBUTTON | WS_GROUP,273,107,38,18
+    CONTROL         "关(OFF)",IDC_RADIO8,"Button",BS_AUTORADIOBUTTON,315,105,39,19
+    PUSHBUTTON      "累积器清零",IDC_M37,181,131,79,15
+    PUSHBUTTON      "Language LINGUA",IDC_M39,181,193,79,15
+    COMBOBOX        IDC_COMBO_M39,267,194,85,67,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "阻尼系数",IDC_M40,181,218,79,15
+    EDITTEXT        IDC_EDIT_M40,268,217,25,15,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Sec",IDC_STATIC,299,221,11,8,WS_DISABLED
+    LTEXT           "mm",IDC_STATIC1,131,39,17,15
+    LTEXT           "mm",IDC_STATIC2,131,57,17,15
+    LTEXT           "mm",IDC_STATIC3,131,79,17,15
+    LTEXT           "mm",IDC_STATIC4,132,143,17,15
+    PUSHBUTTON      "继电器输出",IDC_M79,182,246,79,15
+    COMBOBOX        IDC_COMBO_M79,267,246,99,67,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "不(NO)",IDC_RADIO9,"Button",BS_AUTORADIOBUTTON | WS_GROUP,273,130,38,18
+    CONTROL         "是(YES)",IDC_RADIO10,"Button",BS_AUTORADIOBUTTON,315,131,39,17
+    COMBOBOX        IDC_COMBO_M37,264,159,85,90,CBS_DROPDOWN | WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "欲清零的累积器",IDC_STATIC5,201,163,58,15,WS_DISABLED
+    PUSHBUTTON      "确认",IDC_OK,353,159,20,15,WS_DISABLED
+    PUSHBUTTON      "传感器类型",IDC_M23,24,351,64,15
+    COMBOBOX        IDC_COMBO_M23,97,353,93,67,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "传感器安装方法",IDC_M25,197,369,74,15
+    COMBOBOX        IDC_COMBO_M25,283,371,81,67,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "标尺因子，仪表系数",IDC_M45,198,405,74,15
+    EDITTEXT        IDC_EDIT_M45,283,405,28,15,ES_AUTOHSCROLL
+    PUSHBUTTON      "一键设置",IDC_QUICK_SET,288,267,59,20
+    PUSHBUTTON      "一键设置",IDC_QUICK_SET2,310,459,59,20
+    LTEXT           "请等待设置完成",IDC_STATIC_AUTO,193,270,84,10,NOT WS_VISIBLE
+    LTEXT           "请等待设置完成",IDC_STATIC_AUTO2,28,444,84,10,NOT WS_VISIBLE
+    PUSHBUTTON      "传感器工作频率",IDC_M24,197,352,74,15
+    COMBOBOX        IDC_COMBO_M24,283,353,81,67,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "探头声楔角度",IDC_M23_1,24,375,76,12,WS_DISABLED
+    PUSHBUTTON      "探头声楔声速",IDC_M23_2,24,391,76,12,WS_DISABLED
+    PUSHBUTTON      "探头声楔总距离",IDC_M23_3,23,407,76,12,WS_DISABLED
+    PUSHBUTTON      "探头声楔延迟时间",IDC_M23_4,23,424,76,12,WS_DISABLED
+    EDITTEXT        IDC_EDIT_M23_1,105,376,56,12,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "deg",IDC_STATIC02,167,377,17,11,WS_DISABLED
+    EDITTEXT        IDC_EDIT_M23_2,106,392,56,12,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "m/s",IDC_STATIC00,167,394,17,11,WS_DISABLED
+    EDITTEXT        IDC_EDIT_M23_3,105,408,57,12,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "mm",IDC_STATIC01,168,409,12,11,WS_DISABLED
+    EDITTEXT        IDC_EDIT_M23_4,105,424,57,12,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "uS",IDC_STATIC03,168,426,13,11,WS_DISABLED
+    PUSHBUTTON      "流量修正折线数组",IDC_M48,197,425,75,15
+    PUSHBUTTON      "拷贝",IDC_COPY,246,459,59,20
+    PUSHBUTTON      "粘贴",IDC_PASTE,179,459,59,20
+    PUSHBUTTON      "多表设置",IDC_MULSET,113,459,59,20,NOT WS_VISIBLE
+    LTEXT           "For the Calibration Please set Scale Factor to 1",IDC_STATIC,199,388,136,15
+    LTEXT           "Please Choose Meter S/N",IDC_STATIC,249,309,119,8
+END
+
+IDD_INSTALL DIALOG 0, 0, 390, 205
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "安装"
+FONT 9, "宋体"
+BEGIN
+    GROUPBOX        "安装",IDC_STATIC_INSTALL,7,7,376,191
+    CONTROL         "List3",IDC_LIST,"SysListView32",LVS_REPORT | WS_BORDER | WS_TABSTOP,15,19,361,148
+    PUSHBUTTON      "更新",IDC_UPDATE,322,171,54,20
+    LTEXT           "检验中。。。",IDC_SHOW,262,178,55,13,NOT WS_VISIBLE
+END
+
+IDD_SET_ZERO DIALOGEX 0, 0, 337, 303
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "v"
+FONT 9, "宋体", 0, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_EDIT_M41,17,63,56,15,ES_AUTOHSCROLL
+    GROUPBOX        "置零",IDC_STATIC_SZ,7,29,323,108
+    PUSHBUTTON      "低流速切除值",IDC_M41,17,43,81,15
+    LTEXT           "f/s",IDC_STATIC6,81,65,11,11
+    PUSHBUTTON      "静态置零",IDC_M42,16,83,40,15
+    PUSHBUTTON      "储存当前零点延迟",IDC_M_2,15,103,67,15
+    GROUPBOX        "调流速",IDC_STATIC_DB,7,142,323,152
+    PUSHBUTTON      "开始采集",IDC_COLLECT,111,161,58,16
+    LTEXT           "取值3次值",IDC_STATIC_TEXT,175,165,83,10
+    PUSHBUTTON      "开始采集",IDC_COLLECT2,110,207,58,16
+    LTEXT           "取值3次值",IDC_STATIC_TEXT2,175,210,88,10
+    PUSHBUTTON      "开始采集",IDC_COLLECT3,109,259,58,16
+    LTEXT           "取值3次值",IDC_STATIC_TEXT3,172,263,87,10
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,7,187,323,1
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,7,241,323,1
+    EDITTEXT        IDC_EDIT_SHOW,200,38,117,91,ES_MULTILINE | ES_AUTOVSCROLL | WS_VSCROLL
+    PUSHBUTTON      "<<",IDC_BUTTON_SHOW,175,39,19,14
+    PUSHBUTTON      "100%",IDC_BUTTON3,25,162,34,14
+    PUSHBUTTON      "70%",IDC_BUTTON4,25,207,33,14
+    PUSHBUTTON      "30%",IDC_BUTTON5,24,259,33,14
+    PUSHBUTTON      "Calibrate",IDC_BUTTON6,7,8,70,14
+    PUSHBUTTON      "0%",IDC_BUTTON7,61,84,28,14
+    PUSHBUTTON      "Flush",IDC_FLUSH,87,8,101,14
+    EDITTEXT        IDC_EDIT_WAIT_TIME,111,75,56,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_SAMPLE_TIME,111,114,55,15,ES_AUTOHSCROLL
+    LTEXT           "Valve waiting time (default 240s)",IDC_STATIC9,109,51,83,18
+    LTEXT           "Volt(0)",IDC_STATIC10,67,150,32,12
+    LTEXT           "sec",IDC_STATIC11,171,77,11,11
+    EDITTEXT        IDC_EDIT_VC_MAX,71,161,19,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_VC_MID,70,207,19,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_VC_LOW,69,259,19,14,ES_AUTOHSCROLL
+    LTEXT           "Sampling time (default 360)",IDC_STATIC12,111,92,83,19
+    LTEXT           "Volt(5)",IDC_STATIC13,67,195,39,12
+    LTEXT           "Volt(7)",IDC_STATIC14,66,247,39,12
+END
+
+IDD_LINE_ARRAY DIALOG 0, 0, 406, 198
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "流量修正折线数组"
+FONT 9, "宋体"
+BEGIN
+    PUSHBUTTON      "修正折线数据点数",IDC_DATA_NUM,135,16,69,15
+    COMBOBOX        IDC_COMBO_DATA_NUM,214,17,68,114,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    LTEXT           ":",IDC_STATIC,144,51,8,12
+    EDITTEXT        IDC_EDIT_02_1,105,68,34,15,ES_AUTOHSCROLL
+    LTEXT           ":",IDC_STATIC,144,70,8,12
+    EDITTEXT        IDC_EDIT_02_2,153,68,34,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_03_1,105,87,34,15,ES_AUTOHSCROLL
+    LTEXT           ":",IDC_STATIC,144,90,8,12
+    EDITTEXT        IDC_EDIT_03_2,153,87,34,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_04_1,105,106,34,15,ES_AUTOHSCROLL
+    LTEXT           ":",IDC_STATIC,144,109,8,12
+    EDITTEXT        IDC_EDIT_04_2,153,106,34,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_05_1,105,125,34,15,ES_AUTOHSCROLL
+    LTEXT           ":",IDC_STATIC,144,127,8,12
+    EDITTEXT        IDC_EDIT_05_2,153,125,34,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_06_1,105,144,34,15,ES_AUTOHSCROLL
+    LTEXT           ":",IDC_STATIC,144,148,8,12
+    EDITTEXT        IDC_EDIT_06_2,153,144,34,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_07_1,282,49,34,15,ES_AUTOHSCROLL
+    LTEXT           ":",IDC_STATIC,320,51,8,12
+    EDITTEXT        IDC_EDIT_07_2,330,49,34,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_08_1,282,67,34,15,ES_AUTOHSCROLL
+    LTEXT           ":",IDC_STATIC,320,69,8,12
+    EDITTEXT        IDC_EDIT_08_2,330,67,34,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_09_1,282,87,34,15,ES_AUTOHSCROLL
+    LTEXT           ":",IDC_STATIC,320,89,8,12
+    EDITTEXT        IDC_EDIT_09_2,330,87,34,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_10_1,282,105,34,15,ES_AUTOHSCROLL
+    LTEXT           ":",IDC_STATIC,320,108,8,12
+    EDITTEXT        IDC_EDIT_10_2,330,105,34,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_11_1,282,125,34,15,ES_AUTOHSCROLL
+    LTEXT           ":",IDC_STATIC,320,128,8,12
+    EDITTEXT        IDC_EDIT_11_2,330,125,34,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_12_1,282,144,34,15,ES_AUTOHSCROLL
+    LTEXT           ":",IDC_STATIC,320,145,8,12
+    EDITTEXT        IDC_EDIT_12_2,330,144,34,15,ES_AUTOHSCROLL
+    LTEXT           "第01修正点数据",IDC_STATIC_01,42,51,57,10
+    LTEXT           "第02修正点数据",IDC_STATIC_02,42,71,57,10
+    LTEXT           "第06修正点数据",IDC_STATIC_06,42,148,57,10
+    LTEXT           "第03修正点数据",IDC_STATIC_03,42,91,57,10
+    LTEXT           "第04修正点数据",IDC_STATIC_04,42,110,57,10
+    LTEXT           "第05修正点数据",IDC_STATIC_05,42,129,57,10
+    LTEXT           "第07修正点数据",IDC_STATIC_07,217,51,57,10
+    LTEXT           "第08修正点数据",IDC_STATIC_08,217,70,57,10
+    LTEXT           "第09修正点数据",IDC_STATIC_09,217,89,57,10
+    LTEXT           "第10修正点数据",IDC_STATIC_10,217,109,57,10
+    LTEXT           "第11修正点数据",IDC_STATIC_11,217,128,57,10
+    LTEXT           "第12修正点数据",IDC_STATIC_12,217,148,57,10
+    PUSHBUTTON      "设置",IDC_BUTTON_SET,323,172,57,19
+    GROUPBOX        "",IDC_STATIC,25,36,356,130
+    EDITTEXT        IDC_EDIT_01_1,105,48,34,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_01_2,153,48,34,15,ES_AUTOHSCROLL
+END
+
+IDD_ANALYSIS DIALOG 0, 0, 345, 242
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "结果分析"
+FONT 9, "宋体"
+BEGIN
+    GROUPBOX        "结果分析",IDC_STATIC_A,7,7,331,228
+    CONTROL         "List1",IDC_LIST_ANALYSIS,"SysListView32",LVS_REPORT | WS_BORDER | WS_TABSTOP,17,21,311,172
+    PUSHBUTTON      "校验",IDC_CHECKOUT,281,205,45,20
+END
+
+IDD_ERROR DIALOGEX 0, 0, 225, 204
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "误差"
+FONT 9, "宋体", 0, 0, 0x0
+BEGIN
+    CONTROL         "List1",IDC_ERROR,"SysListView32",LVS_REPORT | WS_BORDER | WS_TABSTOP,7,7,211,122
+    PUSHBUTTON      "设置仪表系数",IDC_SETM45,166,183,52,14
+    LTEXT           "当前系数：",IDC_STATIC_D,16,133,82,13
+    PUSHBUTTON      "导出报表",IDC_REPORT,123,184,40,13
+    LTEXT           "Calibrated Scale Factor:",IDC_STATIC,15,155,99,8
+    LTEXT           "",IDC_XISHU,96,133,41,13
+    LTEXT           "",IDC_XISHU2,112,151,41,13
+END
+
+IDD_COLLECT DIALOG 0, 0, 243, 221
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "采集数据"
+FONT 9, "宋体"
+BEGIN
+    CONTROL         "List1",IDC_LIST_COLLECT,"SysListView32",LVS_REPORT | WS_BORDER | WS_TABSTOP,7,7,229,196
+    CONTROL         "Progress1",IDC_PRO,"msctls_progress32",WS_BORDER,7,204,229,10
+END
+
+IDD_SHOW DIALOG 0, 0, 195, 284
+STYLE DS_SETFONT | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "显示"
+FONT 9, "宋体"
+BEGIN
+    CONTROL         "List1",IDC_LIST_SHOW,"SysListView32",LVS_REPORT | WS_BORDER | WS_TABSTOP,7,7,181,270
+END
+
+IDD_MESSAGEBOX DIALOG 0, 0, 306, 65
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Calibration"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "开始",IDSTART,86,43,50,14
+    PUSHBUTTON      "取消",IDCANCEL,168,43,50,14
+    CTEXT           "请关闭阀门，等待水完全停止（2分钟）。准备好了，请按“开始”键。",IDC_STATIC_MSG,7,17,292,19
+END
+
+IDD_MESSAGEBOX2 DIALOG 0, 0, 303, 63
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Calibration"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "开始",IDOK,85,42,50,14
+    PUSHBUTTON      "取消",IDCANCEL,167,42,50,14
+    CTEXT           "请把标准表流量调到Qmax，并等待一分钟",IDC_STATIC_MSG,8,19,283,20
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 2,0,0,225
+ PRODUCTVERSION 2,0,0,225
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "FileDescription", "Calibration Microsoft 基础类应用程序"
+            VALUE "FileVersion", "2.0.0.225"
+            VALUE "InternalName", "Calibration"
+            VALUE "LegalCopyright", "版权所有 (C) 2012"
+            VALUE "OriginalFilename", "Calibration.EXE"
+            VALUE "ProductName", "Calibration 应用程序"
+            VALUE "ProductVersion", "2.0.0.225"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_CALIBRATION_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 313
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 189
+    END
+
+    IDD_SET, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 382
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 488
+    END
+
+    IDD_INSTALL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 383
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 198
+    END
+
+    IDD_SET_ZERO, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 330
+        TOPMARGIN, 8
+        BOTTOMMARGIN, 294
+    END
+
+    IDD_LINE_ARRAY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 399
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 191
+    END
+
+    IDD_ANALYSIS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 338
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 235
+    END
+
+    IDD_ERROR, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 218
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 197
+    END
+
+    IDD_COLLECT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 236
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 214
+    END
+
+    IDD_SHOW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 188
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 277
+    END
+
+    IDD_MESSAGEBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 299
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 58
+    END
+
+    IDD_MESSAGEBOX2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 296
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 56
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU MENU
+BEGIN
+    MENUITEM "设置",                          IDM_SET
+    MENUITEM "安装",                          0
+    MENUITEM "置零及调流速",                      IDM_SET_ZERO
+    MENUITEM "结果分析",                        IDM_ANALYSIS
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_SET DLGINIT
+BEGIN
+    IDC_COMBO_M14, 0x403, 8, 0
+0x2e30, 0xcc20, 0xb8bc, 0x00d6, 
+    IDC_COMBO_M14, 0x403, 10, 0
+0x2e31, 0xb220, 0xd0bb, 0xb8e2, 0x00d6, 
+    IDC_COMBO_M14, 0x403, 8, 0
+0x2e32, 0xd620, 0xccfd, 0x00fa, 
+    IDC_COMBO_M14, 0x403, 12, 0
+0x2e33, 0xc720, 0xc4f2, 0xd6ab, 0xccfd, 0x00fa, 
+    IDC_COMBO_M14, 0x403, 6, 0
+0x2e34, 0xcd20, 0x00ad, 
+    IDC_COMBO_M14, 0x403, 12, 0
+0x2e35, 0x5020, 0x4356, 0xcb2c, 0xc1dc, 0x00cf, 
+    IDC_COMBO_M14, 0x403, 6, 0
+0x2e36, 0xc220, 0x00c1, 
+    IDC_COMBO_M14, 0x403, 8, 0
+0x2e37, 0xca20, 0xc3af, 0x00de, 
+    IDC_COMBO_M14, 0x403, 10, 0
+0x2e38, 0xb220, 0xc1a3, 0xb8a7, 0x00d6, 
+    IDC_COMBO_M14, 0x403, 8, 0
+0x2e39, 0xc620, 0xcbe4, 0x00fb, 
+    IDC_COMBO_M16, 0x403, 10, 0
+0x2e30, 0xce20, 0xb3de, 0xc0c4, 0x00ef, 
+    IDC_COMBO_M16, 0x403, 12, 0
+0x2e31, 0xbb20, 0xd1b7, 0xc1f5, 0xc7a4, 0x00e0, 
+    IDC_COMBO_M16, 0x403, 8, 0
+0x2e32, 0xcf20, 0xbdf0, 0x00ba, 
+    IDC_COMBO_M16, 0x403, 8, 0
+0x2e33, 0xbb20, 0xbdd2, 0x00ac, 
+    IDC_COMBO_M16, 0x403, 10, 0
+0x2e34, 0xbe20, 0xb1db, 0xcffb, 0x00a9, 
+    IDC_COMBO_M16, 0x403, 12, 0
+0x2e35, 0xbe20, 0xb1db, 0xd2bd, 0xcfd2, 0x00a9, 
+    IDC_COMBO_M16, 0x403, 12, 0
+0x2e36, 0xbe20, 0xb1db, 0xd2bd, 0xcfd2, 0x00a9, 
+    IDC_COMBO_M16, 0x403, 8, 0
+0x2e37, 0xbe20, 0xf5db, 0x00a5, 
+    IDC_COMBO_M16, 0x403, 10, 0
+0x2e38, 0xbe20, 0xd2db, 0xcfd2, 0x00a9, 
+    IDC_COMBO_M16, 0x403, 17, 0
+0x2e39, 0xd320, 0xd6b2, 0xcfca, 0xbdf0, 0x2cba, 0xbabd, 0xbec4, "\000" 
+    IDC_COMBO_M16, 0x403, 15, 0
+0x3031, 0x202e, 0xdbbe, 0xc4cb, 0xfab7, 0xd2d2, 0xa9cf, "\000" 
+    IDC_COMBO_M16, 0x403, 9, 0
+0x3131, 0x202e, 0xe4c6, 0xfbcb, "\000" 
+    IDC_COMBO_M20, 0x403, 6, 0
+0x2e30, 0xcb20, 0x00ae, 
+    IDC_COMBO_M20, 0x403, 8, 0
+0x2e31, 0xba20, 0xcba3, 0x00ae, 
+    IDC_COMBO_M20, 0x403, 8, 0
+0x2e32, 0xc320, 0xd3ba, 0x00cd, 
+    IDC_COMBO_M20, 0x403, 8, 0
+0x2e33, 0xc620, 0xd3fb, 0x00cd, 
+    IDC_COMBO_M20, 0x403, 10, 0
+0x2e34, 0xc820, 0xc1bc, 0xd3cf, 0x00cd, 
+    IDC_COMBO_M20, 0x403, 8, 0
+0x2e35, 0xd420, 0xd3ad, 0x00cd, 
+    IDC_COMBO_M20, 0x403, 17, 0
+0x2e36, 0xb120, 0xcdfb, 0xa3e9, 0x2da8, 0x3534, 0xc8b6, 0xa9a3, "\000" 
+    IDC_COMBO_M20, 0x403, 11, 0
+0x2e37, 0x3020, 0xc8b6, 0xa1b6, 0xe9cd, "\000" 
+    IDC_COMBO_M20, 0x403, 8, 0
+0x2e38, 0xc620, 0xcbe4, 0x00fb, 
+    IDC_COMBO_M20, 0x403, 8, 0
+0x2e39, 0xb220, 0xd3f1, 0x00cd, 
+    IDC_COMBO_M20, 0x403, 11, 0
+0x3031, 0x202e, 0xcdb1, 0xe9c2, 0xcdd3, "\000" 
+    IDC_COMBO_M20, 0x403, 11, 0
+0x3131, 0x202e, 0xa8bb, 0xfac9, 0xcdd3, "\000" 
+    IDC_COMBO_M20, 0x403, 13, 0
+0x3231, 0x202e, 0x3039, 0xc5ba, 0xfbc6, 0xcdd3, "\000" 
+    IDC_COMBO_M20, 0x403, 13, 0
+0x3331, 0x202e, 0x3339, 0xc5ba, 0xfbc6, 0xcdd3, "\000" 
+    IDC_COMBO_M20, 0x403, 9, 0
+0x3431, 0x202e, 0xc6be, 0xabbe, "\000" 
+    IDC_COMBO_M20, 0x403, 16, 0
+0x3531, 0x202e, 0x3231, 0xb635, 0xb8c8, 0xcedf, 0xcbc2, 0x00ae, 
+    IDC_COMBO_M31_1, 0x403, 13, 0
+0xa2c1, 0xbdb7, 0xd7c3, 0xa8a3, 0x336d, 0xa9a3, "\000" 
+    IDC_COMBO_M31_1, 0x403, 10, 0
+0xabb9, 0xfdc9, 0xa8a3, 0xa34c, 0x00a9, 
+    IDC_COMBO_M31_1, 0x403, 16, 0
+0xc0c3, 0xc6d6, 0xd3bc, 0xd8c2, 0xa8a3, 0x4147, 0xa34c, 0x00a9, 
+    IDC_COMBO_M31_1, 0x403, 16, 0
+0xa2d3, 0xc6d6, 0xd3bc, 0xd8c2, 0xa8a3, 0x4749, 0xa34c, 0x00a9, 
+    IDC_COMBO_M31_1, 0x403, 18, 0
+0xc0c3, 0xc6d6, 0xd7d5, 0xd3bc, 0xd8c2, 0xa8a3, 0x474d, 0xa34c, 0x00a9, 
+
+    IDC_COMBO_M31_1, 0x403, 15, 0
+0xa2c1, 0xbdb7, 0xa2d3, 0xdfb3, 0xa8a3, 0x4643, 0xa9a3, "\000" 
+    IDC_COMBO_M31_1, 0x403, 21, 0
+0xc0c3, 0xc6d6, 0xafca, 0xcdd3, 0xb0cd, 0x345b, 0x5d32, 0xa8a3, 0x424f, 
+0xa9a3, "\000" 
+    IDC_COMBO_M31_1, 0x403, 17, 0
+0xa2d3, 0xc6d6, 0xafca, 0xcdd3, 0xb0cd, 0xa8a3, 0x4249, 0xa9a3, "\000" 
+    IDC_COMBO_M31_2, 0x403, 10, 0
+0xbfc3, 0xebc3, 0xa8a3, 0xa373, 0x00a9, 
+    IDC_COMBO_M31_2, 0x403, 10, 0
+0xbfc3, 0xd6b7, 0xa8a3, 0xa36d, 0x00a9, 
+    IDC_COMBO_M31_2, 0x403, 10, 0
+0xbfc3, 0xb1ca, 0xa8a3, 0xa368, 0x00a9, 
+    IDC_COMBO_M31_2, 0x403, 10, 0
+0xbfc3, 0xeccc, 0xa8a3, 0xa364, 0x00a9, 
+    IDC_COMBO_M32, 0x403, 13, 0
+0xa2c1, 0xbdb7, 0xd7c3, 0xa8a3, 0x336d, 0xa9a3, "\000" 
+    IDC_COMBO_M32, 0x403, 10, 0
+0xabb9, 0xfdc9, 0xa8a3, 0xa34c, 0x00a9, 
+    IDC_COMBO_M32, 0x403, 16, 0
+0xc0c3, 0xc6d6, 0xd3bc, 0xd8c2, 0xa8a3, 0x4147, 0xa34c, 0x00a9, 
+    IDC_COMBO_M32, 0x403, 16, 0
+0xa2d3, 0xc6d6, 0xd3bc, 0xd8c2, 0xa8a3, 0x4749, 0xa34c, 0x00a9, 
+    IDC_COMBO_M32, 0x403, 18, 0
+0xc0c3, 0xc6d6, 0xd7d5, 0xd3bc, 0xd8c2, 0xa8a3, 0x474d, 0xa34c, 0x00a9, 
+
+    IDC_COMBO_M32, 0x403, 15, 0
+0xa2c1, 0xbdb7, 0xa2d3, 0xdfb3, 0xa8a3, 0x4643, 0xa9a3, "\000" 
+    IDC_COMBO_M32, 0x403, 21, 0
+0xc0c3, 0xc6d6, 0xafca, 0xcdd3, 0xb0cd, 0x345b, 0x5d32, 0xa8a3, 0x424f, 
+0xa9a3, "\000" 
+    IDC_COMBO_M32, 0x403, 17, 0
+0xa2d3, 0xc6d6, 0xafca, 0xcdd3, 0xb0cd, 0xa8a3, 0x4249, 0xa9a3, "\000" 
+    IDC_COMBO_M33, 0x403, 16, 0
+0x2e30, 0x7820, 0x2e30, 0x3030, 0x2831, 0x4531, 0x332d, 0x0029, 
+    IDC_COMBO_M33, 0x403, 9, 0
+0x2e31, 0x7820, 0x2e30, 0x3130, "\000" 
+    IDC_COMBO_M33, 0x403, 8, 0
+0x2e32, 0x7820, 0x2e30, 0x0031, 
+    IDC_COMBO_M33, 0x403, 6, 0
+0x2e33, 0x7820, 0x0031, 
+    IDC_COMBO_M33, 0x403, 7, 0
+0x2e34, 0x7820, 0x3031, "\000" 
+    IDC_COMBO_M33, 0x403, 8, 0
+0x2e35, 0x7820, 0x3031, 0x0030, 
+    IDC_COMBO_M33, 0x403, 9, 0
+0x2e36, 0x7820, 0x3031, 0x3030, "\000" 
+    IDC_COMBO_M33, 0x403, 16, 0
+0x2e37, 0x7820, 0x3031, 0x3030, 0x2830, 0x4531, 0x342b, 0x0029, 
+    IDC_COMBO_M39, 0x403, 19, 0
+0x6e45, 0x6c67, 0x7369, 0x2068, 0x2020, 0x4e49, 0x4c47, 0x5345, 0x2045, 
+"\000" 
+    IDC_COMBO_M39, 0x403, 18, 0
+0x685a, 0x6e6f, 0x5767, 0x6e65, 0x2020, 0x2020, 0xd620, 0xced0, 0x00c4, 
+
+    IDC_COMBO_M39, 0x403, 17, 0
+0x7449, 0x6c61, 0x6169, 0x6f6e, 0x2020, 0x4920, 0x4154, 0x594c, "\000" 
+    IDC_COMBO_M79, 0x403, 16, 0
+0x2e30, 0xce20, 0xd0de, 0xbac5, 0xcac5, 0xb1b1, 0xbea8, 0x00af, 
+    IDC_COMBO_M79, 0x403, 18, 0
+0x2e31, 0xd020, 0xbac5, 0xb1c5, 0xb2e4, 0xcaee, 0xb1b1, 0xbea8, 0x00af, 
+
+    IDC_COMBO_M79, 0x403, 18, 0
+0x2e32, 0xb220, 0xc1e2, 0xd7bf, 0xccb4, 0xb2ac, 0xd5bb, 0xb3fd, 0x00a3, 
+
+    IDC_COMBO_M79, 0x403, 18, 0
+0x2e33, 0xb720, 0xcfb4, 0xc1f2, 0xb6f7, 0xcaaf, 0xb1b1, 0xbea8, 0x00af, 
+
+    IDC_COMBO_M79, 0x403, 20, 0
+0x2e34, 0xc420, 0xc4a3, 0xcae2, 0xb3e4, 0xd4f6, 0xcfbd, 0x31de, 0x3030, 
+0x0025, 
+    IDC_COMBO_M79, 0x403, 20, 0
+0x2e35, 0xc620, 0xc2b5, 0xcaca, 0xb3e4, 0xd4f6, 0xcfbd, 0x31de, 0x3032, 
+0x0025, 
+    IDC_COMBO_M79, 0x403, 20, 0
+0x2e36, 0x2320, 0xb131, 0xbea8, 0xc6af, 0xb3f7, 0xc9ac, 0xcfcf, 0xcfc2, 
+0x00de, 
+    IDC_COMBO_M79, 0x403, 18, 0
+0x2e37, 0x2320, 0xb132, 0xbea8, 0xc6af, 0xcef7, 0xb3b4, 0xcfac, 0x00de, 
+
+    IDC_COMBO_M79, 0x403, 18, 0
+0x2e38, 0xd720, 0xcef7, 0xb6aa, 0xc1a8, 0xc6bf, 0xcaf7, 0xb3e4, 0x00f6, 
+
+    IDC_COMBO_M79, 0x403, 18, 0
+0x2e39, 0xd520, 0xc0fd, 0xbbdb, 0xc2fd, 0xb3f6, 0xcae5, 0xb3e4, 0x00f6, 
+
+    IDC_COMBO_M79, 0x403, 19, 0
+0x3031, 0x202e, 0xbab8, 0xdbc0, 0xfdbb, 0xf6c2, 0xe5b3, 0xe4ca, 0xf6b3, 
+"\000" 
+    IDC_COMBO_M79, 0x403, 19, 0
+0x3131, 0x202e, 0xbbbe, 0xdbc0, 0xfdbb, 0xf6c2, 0xe5b3, 0xe4ca, 0xf6b3, 
+"\000" 
+    IDC_COMBO_M79, 0x403, 19, 0
+0x3231, 0x202e, 0xfdd5, 0xc8c8, 0xbfc1, 0xdbc0, 0xfdbb, 0xf6c2, 0xe5b3, 
+"\000" 
+    IDC_COMBO_M79, 0x403, 19, 0
+0x3331, 0x202e, 0xbab8, 0xc8c8, 0xbfc1, 0xdbc0, 0xfdbb, 0xf6c2, 0xe5b3, 
+"\000" 
+    IDC_COMBO_M79, 0x403, 19, 0
+0x3431, 0x202e, 0xbbbe, 0xc8c8, 0xbfc1, 0xdbc0, 0xfdbb, 0xf6c2, 0xe5b3, 
+"\000" 
+    IDC_COMBO_M79, 0x403, 19, 0
+0x3531, 0x202e, 0xf7c1, 0xe5cc, 0xf9c9, 0xd9cb, 0x3e3d, 0xd0e3, 0xb5d6, 
+"\000" 
+    IDC_COMBO_M79, 0x403, 18, 0
+0x3631, 0x202e, 0xf7c1, 0xe5cc, 0xf9c9, 0xd9cb, 0xe33c, 0xd6d0, 0x00b5, 
+
+    IDC_COMBO_M79, 0x403, 17, 0
+0x3731, 0x202e, 0xaeb4, 0xdabf, 0xd8bf, 0xc6d6, 0xa8cd, 0xcfb6, "\000" 
+    IDC_COMBO_M79, 0x403, 20, 0
+0x3831, 0x202e, 0xbfc3, 0xeccc, 0xbbd2, 0xceb4, 0x354d, 0xb631, 0xcaa8, 
+0x00b1, 
+    IDC_COMBO_M79, 0x403, 19, 0
+0x3931, 0x202e, 0xa8b6, 0xb1ca, 0xc4b5, 0x3123, 0xa8b1, 0xafbe, 0xf7c6, 
+"\000" 
+    IDC_COMBO_M79, 0x403, 19, 0
+0x3032, 0x202e, 0xa8b6, 0xb1ca, 0xc4b5, 0x3223, 0xa8b1, 0xafbe, 0xf7c6, 
+"\000" 
+    IDC_COMBO_M79, 0x403, 19, 0
+0x3132, 0x202e, 0xa8b6, 0xbfc1, 0xd8bf, 0xc6d6, 0xf7c6, 0xfdbb, 0xfac2, 
+"\000" 
+    IDC_COMBO_M79, 0x403, 20, 0
+0x3232, 0x202e, 0x354d, 0xb631, 0xcaa8, 0xd6b1, 0xc6dc, 0xcada, 0xb3e4, 
+0x00f6, 
+    IDC_COMBO_M79, 0x403, 18, 0
+0x3332, 0x202e, 0xa8b6, 0xbfc1, 0xf7c6, 0x3039, 0xd225, 0xc2d1, 0x00fa, 
+
+    IDC_COMBO_M79, 0x403, 19, 0
+0x3432, 0x202e, 0xd8b9, 0xd5b1, 0xccbc, 0xe7b5, 0xf7c6, 0xe4ca, 0xf6b3, 
+"\000" 
+    IDC_COMBO_M37, 0x403, 17, 0
+0x3d3d, 0x3d3d, 0xb23d, 0xc7bb, 0xb3e5, 0x3dfd, 0x3d3d, 0x3d3d, "\000" 
+    IDC_COMBO_M37, 0x403, 17, 0
+0x2020, 0xf9cb, 0xd0d3, 0xdbc0, 0xfdbb, 0xf7c6, 0xe5c7, 0xe3c1, "\000" 
+    IDC_COMBO_M37, 0x403, 15, 0
+0x2020, 0x2020, 0x2020, 0xbbbe, 0xdbc0, 0xfdbb, 0xf7c6, "\000" 
+    IDC_COMBO_M37, 0x403, 15, 0
+0x2020, 0x2020, 0x2020, 0xfdd5, 0xdbc0, 0xfdbb, 0xf7c6, "\000" 
+    IDC_COMBO_M37, 0x403, 15, 0
+0x2020, 0x2020, 0x2020, 0xbab8, 0xdbc0, 0xfdbb, 0xf7c6, "\000" 
+    IDC_COMBO_M37, 0x403, 16, 0
+0x2020, 0xc820, 0xc1c8, 0xbebf, 0xc0bb, 0xbbdb, 0xc6fd, 0x00f7, 
+    IDC_COMBO_M37, 0x403, 13, 0
+0xc8c8, 0xbfc1, 0xfdd5, 0xdbc0, 0xfdbb, 0xf7c6, "\000" 
+    IDC_COMBO_M37, 0x403, 13, 0
+0xc8c8, 0xbfc1, 0xbab8, 0xdbc0, 0xfdbb, 0xf7c6, "\000" 
+    IDC_COMBO_M37, 0x403, 17, 0
+0xd6bb, 0xb4b8, 0xacc4, 0xcfc8, 0xceb2, 0xfdca, 0xe8c9, 0xc3d6, "\000" 
+    IDC_COMBO_M37, 0x403, 15, 0
+0xf1bd, 0xd5c8, 0xf7c1, 0xbfc1, 0xdbc0, 0xfdbb, 0xf7c6, "\000" 
+    IDC_COMBO_M37, 0x403, 15, 0
+0xb1b5, 0xc2d4, 0xf7c1, 0xbfc1, 0xdbc0, 0xfdbb, 0xf7c6, "\000" 
+    IDC_COMBO_M37, 0x403, 15, 0
+0xf1bd, 0xeac4, 0xf7c1, 0xbfc1, 0xdbc0, 0xfdbb, 0xf7c6, "\000" 
+    IDC_COMBO_M23, 0x403, 18, 0
+0x2e30, 0xb120, 0xd7ea, 0xd6bc, 0xd0d0, 0xccd4, 0xcdbd, 0x2db7, 0x004d, 
+
+    IDC_COMBO_M23, 0x403, 16, 0
+0x2e31, 0xb220, 0xc8e5, 0xcceb, 0xcdbd, 0x2db7, 0xd043, 0x00cd, 
+    IDC_COMBO_M23, 0x403, 18, 0
+0x2e32, 0xb120, 0xd7ea, 0xd0bc, 0xd0a1, 0xcccd, 0xcdbd, 0x2db7, 0x0053, 
+
+    IDC_COMBO_M23, 0x403, 16, 0
+0x2e33, 0xd320, 0xbbc3, 0xd7a7, 0xb1d4, 0xccb8, 0xcdbd, 0x00b7, 
+    IDC_COMBO_M23, 0x403, 16, 0
+0x2e34, 0xb120, 0xd7ea, 0x20bc, 0xd042, 0xcccd, 0xcdbd, 0x00b7, 
+    IDC_COMBO_M23, 0x403, 16, 0
+0x2e35, 0xb220, 0xc8e5, 0xcceb, 0xcdbd, 0x2db7, 0xd042, 0x00cd, 
+    IDC_COMBO_M23, 0x403, 18, 0
+0x2e36, 0xb120, 0xd7ea, 0xb4bc, 0xd0f3, 0xcccd, 0xcdbd, 0x2db7, 0x004c, 
+
+    IDC_COMBO_M23, 0x403, 18, 0
+0x2e37, 0xb120, 0xc0a6, 0xc9fb, 0xb1f9, 0xd7ea, 0xccbc, 0xcdbd, 0x00b7, 
+
+    IDC_COMBO_M23, 0x403, 20, 0
+0x2e38, 0xb120, 0xd7ea, 0x48bc, 0xd053, 0xd6a1, 0xbca7, 0xccdc, 0xcdbd, 
+0x00b7, 
+    IDC_COMBO_M23, 0x403, 20, 0
+0x2e39, 0xb120, 0xd7ea, 0x48bc, 0xd64d, 0xd6d0, 0xbca7, 0xccdc, 0xcdbd, 
+0x00b7, 
+    IDC_COMBO_M23, 0x403, 19, 0
+0x3031, 0x202e, 0xeab1, 0xbcd7, 0x314d, 0xcdd0, 0xd0d6, 0xbdcc, 0xb7cd, 
+"\000" 
+    IDC_COMBO_M23, 0x403, 19, 0
+0x3131, 0x202e, 0xeab1, 0xbcd7, 0x3153, 0xcdd0, 0xa1d0, 0xbdcc, 0xb7cd, 
+"\000" 
+    IDC_COMBO_M23, 0x403, 19, 0
+0x3231, 0x202e, 0xeab1, 0xbcd7, 0x314c, 0xcdd0, 0xf3b4, 0xbdcc, 0xb7cd, 
+"\000" 
+    IDC_COMBO_M23, 0x403, 19, 0
+0x3331, 0x202e, 0x4950, 0xcdd0, 0xdcb9, 0xaecb, 0xedb1, 0xbdcc, 0xb7cd, 
+"\000" 
+    IDC_COMBO_M23, 0x403, 18, 0
+0x3431, 0x202e, 0x5346, 0x3134, 0xa330, 0xd6a8, 0xd0d0, 0xa3cd, 0x00a9, 
+
+    IDC_COMBO_M23, 0x403, 18, 0
+0x3531, 0x202e, 0x5346, 0x3135, 0xa330, 0xb4a8, 0xd0f3, 0xa3cd, 0x00a9, 
+
+    IDC_COMBO_M23, 0x403, 19, 0
+0x3631, 0x202e, 0xd0bc, 0xb0d7, 0xd0d6, 0xbdcc, 0xb7cd, 0x4d54, 0x312d, 
+"\000" 
+    IDC_COMBO_M23, 0x403, 17, 0
+0x3731, 0x202e, 0xe5b2, 0xebc8, 0xbdcc, 0xb7cd, 0x4354, 0x312d, "\000" 
+    IDC_COMBO_M23, 0x403, 19, 0
+0x3831, 0x202e, 0xd0bc, 0xb0d7, 0xa1d0, 0xbdcc, 0xb7cd, 0x5354, 0x312d, 
+"\000" 
+    IDC_COMBO_M23, 0x403, 19, 0
+0x3931, 0x202e, 0xd0bc, 0xb0d7, 0xa1d0, 0xbdcc, 0xb7cd, 0x5354, 0x322d, 
+"\000" 
+    IDC_COMBO_M23, 0x403, 19, 0
+0x3032, 0x202e, 0xd0bc, 0xb0d7, 0xf3b4, 0xbdcc, 0xb7cd, 0x4c54, 0x312d, 
+"\000" 
+    IDC_COMBO_M23, 0x403, 18, 0
+0x3132, 0x202e, 0xe5b2, 0xebc8, 0xbdcc, 0xb7cd, 0x4c54, 0x2d43, 0x0032, 
+
+    IDC_COMBO_M23, 0x403, 19, 0
+0x3232, 0x202e, 0xe2cd, 0xd0bc, 0xb0d7, 0xd0d6, 0xbdcc, 0xb7cd, 0x324d, 
+"\000" 
+    IDC_COMBO_M23, 0x403, 19, 0
+0x3332, 0x202e, 0xe2cd, 0xd0bc, 0xb0d7, 0xf3b4, 0xbdcc, 0xb7cd, 0x324c, 
+"\000" 
+    IDC_COMBO_M25, 0x403, 8, 0
+0xb756, 0xb0a8, 0xd7b2, 0x00b0, 
+    IDC_COMBO_M25, 0x403, 8, 0
+0xb75a, 0xb0a8, 0xd7b2, 0x00b0, 
+    IDC_COMBO_M25, 0x403, 14, 0
+0xb74e, 0xd0a8, 0xb9a1, 0xb5dc, 0xb0c0, 0xd7b2, 0x00b0, 
+    IDC_COMBO_M25, 0x403, 14, 0
+0xb757, 0xd0a8, 0xb9a1, 0xb5dc, 0xb0c0, 0xd7b2, 0x00b0, 
+    IDC_COMBO_M24, 0x403, 5, 0
+0x4d31, 0x7a48, "\000" 
+    IDC_COMBO_M24, 0x403, 5, 0
+0x4d32, 0x7a48, "\000" 
+    IDC_COMBO_M24, 0x403, 5, 0
+0x4d34, 0x7a48, "\000" 
+    IDC_COMBO_M24, 0x403, 7, 0
+0x3035, 0x4b30, 0x7a48, "\000" 
+    0
+END
+
+IDD_LINE_ARRAY DLGINIT
+BEGIN
+    IDC_COMBO_DATA_NUM, 0x403, 2, 0
+0x0031, 
+    IDC_COMBO_DATA_NUM, 0x403, 2, 0
+0x0032, 
+    IDC_COMBO_DATA_NUM, 0x403, 2, 0
+0x0033, 
+    IDC_COMBO_DATA_NUM, 0x403, 2, 0
+0x0034, 
+    IDC_COMBO_DATA_NUM, 0x403, 2, 0
+0x0035, 
+    IDC_COMBO_DATA_NUM, 0x403, 2, 0
+0x0036, 
+    IDC_COMBO_DATA_NUM, 0x403, 2, 0
+0x0037, 
+    IDC_COMBO_DATA_NUM, 0x403, 2, 0
+0x0038, 
+    IDC_COMBO_DATA_NUM, 0x403, 2, 0
+0x0039, 
+    IDC_COMBO_DATA_NUM, 0x403, 3, 0
+0x3031, "\000" 
+    IDC_COMBO_DATA_NUM, 0x403, 3, 0
+0x3131, "\000" 
+    IDC_COMBO_DATA_NUM, 0x403, 3, 0
+0x3231, "\000" 
+    0
+END
+
+IDD_CALIBRATION_DIALOG DLGINIT
+BEGIN
+    IDC_LANGUAGE, 0x403, 5, 0
+0xd0d6, 0xc4ce, "\000" 
+    IDC_LANGUAGE, 0x403, 8, 0
+0x6e45, 0x6c67, 0x7369, 0x0068, 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP_WARNING      BITMAP                  "res\\bitmap1.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_SET_ZERO AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+#endif    // Chinese (Simplified, PRC) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOGEX 0, 0, 310, 134
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_CLIENTEDGE
+CAPTION "Message Box"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,198,113,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,253,113,50,14
+    CTEXT           "Please install the transducers now using the following parameters:",IDC_STATIC_MSG01,7,15,292,18
+    LTEXT           "Then press ""OK"" when you are ready.",IDC_STATIC,49,81,122,12
+    LTEXT           "Static",IDC_STATIC3,52,31,185,12
+    LTEXT           "Static",IDC_STATIC4,52,47,198,8
+    LTEXT           "Static",IDC_STATIC5,52,63,201,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 303
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 127
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\Calibration.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
